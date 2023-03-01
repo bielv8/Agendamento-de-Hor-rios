@@ -1,0 +1,85 @@
+<!-- Definindo o tipo de documento como HTML -->
+<!DOCTYPE html>
+<!-- Iniciando o documento HTML -->
+<html>
+  <head>
+    <!-- Incluindo o arquivo CSS externo chamado "style.css" -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Definindo o título da página como "Agendamento" -->
+    <title>Agendamento</title>
+  </head>
+  <body>
+    <!-- Adicionando um título principal para a página -->
+    <h1>Agendamento</h1>
+    <!-- Adicionando um subtítulo "Calendário" -->
+<h2>Calendário</h2>
+<!-- Criando uma tabela para exibir os dias do mês -->
+<table>
+  <tr>
+    <!-- Adicionando os dias da semana como cabeçalhos da tabela -->
+    <th>Domingo</th>
+    <th>Segunda</th>
+    <th>Terça</th>
+    <th>Quarta</th>
+    <th>Quinta</th>
+    <th>Sexta</th>
+    <th>Sábado</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+  </tr>
+  <!-- Adicione mais linhas para os outros dias do mês -->
+</table>
+
+<!-- Adicionando um subtítulo "Horários disponíveis" -->
+<h2>Horários disponíveis</h2>
+<!-- Criando uma lista não ordenada para exibir os horários disponíveis -->
+<ul>
+  <li>09:00 - 10:00</li>
+  <li>10:00 - 11:00</li>
+  <li>11:00 - 12:00</li>
+  <li>13:00 - 14:00</li>
+  <li>14:00 - 15:00</li>
+  <li>15:00 - 16:00</li>
+</ul>
+
+<!-- Adicionando um subtítulo "Agendar" -->
+<h2>Agendar</h2>
+<!-- Criando um formulário para o usuário agendar um horário -->
+<form>
+  <!-- Adicionando um rótulo e um campo para selecionar a data -->
+  <label for="data">Data:</label>
+  <input type="date" id="data" name="data"><br>
+
+  <!-- Adicionando um rótulo e um menu suspenso para selecionar a hora -->
+  <label for="hora">Hora:</label>
+  <select id="hora" name="hora">
+    <option value="09:00">09:00 - 10:00</option>
+    <option value="10:00">10:00 - 11:00</option>
+    <option value="11:00">11:00 - 12:00</option>
+    <option value="13:00">13:00 - 14:00</option>
+    <option value="14:00">14:00 - 15:00</option>
+    <option value="14:00">14:00 - 15:00</option>
+        <option value="15:00">15:00 - 16:00</option>
+      </select><br>
+
+      <!--A tag <form> define o início do formulário e as informações contidas dentro dela são enviadas para o servidor quando o usuário clica no botão "Agendar". A tag <button> cria um botão clicável com o texto "Agendar" e o atributo type="submit" indica que o botão deve enviar o formulário quando clicado.-->
+      <button type="submit">Agendar</button>
+    </form>
+  </body>
+</html>
