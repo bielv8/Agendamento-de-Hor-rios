@@ -1,0 +1,22 @@
+<!DOCTYPE html>: Define o tipo de documento como HTML5.
+<html>: Indica o início do documento HTML.
+<head>: Define o cabeçalho do documento, onde são adicionadas informações como título, links para arquivos CSS e JavaScript, etc.
+<link rel="stylesheet" href="style.css">: Linka o arquivo CSS externo "style.css" ao documento HTML para estilizar a página.
+<title>Agendamento</title>: Define o título da página como "Agendamento", que aparece na aba do navegador.
+<body>: Define o corpo do documento, onde são adicionados os elementos visíveis na página.
+<h1>Agendamento</h1>: Adiciona um título principal para a página com o texto "Agendamento".
+<h2>Calendário</h2>: Adiciona um subtítulo com o texto "Calendário".
+<table>: Cria uma tabela.
+<tr>: Define uma linha na tabela.
+<th>: Define um cabeçalho de coluna na tabela.
+<td>: Define uma célula na tabela.
+<ul>: Cria uma lista não ordenada.
+<li>: Define um item da lista.
+<h2>Horários disponíveis</h2>: Adiciona um subtítulo com o texto "Horários disponíveis".
+<h2>Agendar</h2>: Adiciona um subtítulo com o texto "Agendar".
+<form>: Cria um formulário para que o usuário possa agendar um horário.
+<label>: Cria um rótulo para o campo de entrada.
+<input>: Cria um campo de entrada.
+<select>: Cria um menu suspenso.
+<option>: Define as opções dentro do menu suspenso.
+<button type="submit">Agendar</button>: Cria um botão clicável com o texto "Agendar" e o atributo type="submit" indica que o botão deve enviar o formulário quando clicado.
